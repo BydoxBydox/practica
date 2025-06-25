@@ -1,0 +1,47 @@
+body {
+  background: white;
+  color: #39ff14;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 18px;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 28px;
+  text-align: left;
+  color: #39ff14;
+}
+
+input {
+  padding: 4px;
+  font-size: 16px;
+  width: 200px;
+}
+
+button {
+  background-color: #39ff14;
+  color: black;
+  font-size: 14px;
+  padding: 4px;
+  margin: 3px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+ul {
+  margin-top: 15px;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+  background: #eaeaea;
+  color: black;
+  padding: 5px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}

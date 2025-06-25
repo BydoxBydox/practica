@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do App_Bina</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Integrantes:</h1>
+  <h1>1. Juan Carlos Tuz Tut</h1>
+  <h1>2. Daniel Dzul Cortes</h1>
+  <BR>
+  <h1>To-Do App</h1>
 
+
+  <input id="taskInput" type="text" placeholder="Escribe tarea">
+  <button onclick="addTask()">Agregar</button>
+
+  <br><br>
+
+  <button onclick="filterTasks('all')">Todas</button>
+  <button onclick="filterTasks('completed')">Completadas</button>
+  <button onclick="filterTasks('pending')">Pendientes</button>
+  <button onclick="sortTasks()">Ordenar</button>
+
+  <ul id="taskList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
